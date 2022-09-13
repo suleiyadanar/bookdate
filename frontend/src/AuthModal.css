@@ -1,0 +1,58 @@
+*{
+    transition:all 0.5s ease-in;
+}
+.authModal{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(217,199,234,1);
+    width:75vw;
+    padding: 20px;
+}
+form{
+    display: absolute;
+    flex-direction: column;
+    width: 70%;
+    height: 30vh;
+    justify-content: center;
+ 
+}
+.formSubmit{
+    display: flex;
+    flex-direction: column;
+    right:25%;
+    left:25%;
+}
+.formInput1{
+    margin:10px;
+    border: 0.5px;
+    border-radius: 5px;
+    border-color: rgb(190, 151, 226);
+    padding: 10px;
+}
+.formInput{
+    width: 50%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right:25%;
+    left:25%;
+}
+
+.secondary-btn{
+    width:25%;
+    height:5vh;
+    display: flex;
+    justify-content: center;
+    right:25%;
+    border:none;
+    background-color: rgb(171, 114, 223);
+    border-radius: 10px;
+
+}
+.secondary-btn:hover{
+    cursor:pointer;
+    background-color: rgb(190, 151, 226);
+}
+.formSubmit{
+    transition:all 0.5s ease-in;
+}

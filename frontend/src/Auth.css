@@ -1,0 +1,36 @@
+.auth{
+    background: linear-gradient(0deg, rgba(217,199,234,1) 0%, rgba(255,255,255,1) 59%);
+    height:100vh;
+}
+.auth__slogan{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+.auth__main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 15vh;
+}
+.auth__create {
+
+    width:40vw;
+    border:none;
+    border-color:black;
+    padding:20px;
+    border-radius: 20px;
+    font-size:20px;
+    background: linear-gradient(90deg, rgba(255,154,162,1) 0%, rgba(217,199,234,1) 58%);
+    font-size: 22px;
+    margin-bottom: 18px;
+    transition: ease 0.5s;
+    box-shadow: 1px 1px 0 0 #fdfdfd;
+}
+button:hover{
+    background: linear-gradient(90deg, rgba(217,199,234,1) 0%, rgba(181,234,215,1) 50%);
+    font-size: 22.5px;
+    cursor:pointer;
+}

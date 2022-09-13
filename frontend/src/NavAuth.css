@@ -1,0 +1,31 @@
+.auth__header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 5vh;
+    border-bottom:1px solid #fdfdfd;
+    padding-top:5px;
+}
+.auth__logoName{
+    display:flex;
+    align-items: center;
+}
+
+.auth__logo{
+    padding-left: 20px;
+    margin-right: 10px;
+}
+
+.auth__login{
+    margin: 20px 20px 0 0;
+    color:white;
+    padding:10px;
+    background: rgb(198, 144, 249);
+    border-radius: 10px;
+}
+.auth__login:hover{
+    cursor:pointer;
+    background: rgba(255,255,255,1);
+    color: rgb(171, 56, 213);
+    transition:all 0.5s ease-in;
+}
